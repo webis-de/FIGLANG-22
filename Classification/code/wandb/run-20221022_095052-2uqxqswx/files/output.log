@@ -1,0 +1,156 @@
+
+Loading bert tokenizer
+Truncation was not explicitly activated but `max_length` is provided a specific value, please use `truncation=True` to explicitly truncate examples to max length. Defaulting to 'longest_first' truncation strategy. If you encode pairs of sequences (GLUE-style) with the tokenizer you can select this strategy more precisely by providing a specific strategy to `truncation`.
+/Users/msen/Documents/venv/lib/python3.9/site-packages/transformers/tokenization_utils_base.py:2263: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  warnings.warn(
+1,000 training samples
+  128 validation samples
+  301 test samples
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForSequenceClassification: ['cls.predictions.transform.dense.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias']
+- This IS expected if you are initializing BertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/Users/msen/Documents/venv/lib/python3.9/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+======== Epoch 1 / 6 ========
+Training...
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 5.069177150726318
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.872041702270508
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.854043483734131
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.898090362548828
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.939859867095947
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.82894229888916
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.836428642272949
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.79517936706543
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.843032360076904
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.790714263916016
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.808640956878662
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.729635238647461
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.820430755615234
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.671534538269043
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.643468379974365
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.7069830894470215
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.460925579071045
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.458536148071289
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.525577545166016
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.6844964027404785
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.429426193237305
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.453913688659668
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.4174418449401855
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.431262493133545
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.491083145141602
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.352616786956787
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.5091872215271
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.414155006408691
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.430115699768066
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.474230766296387
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])
+Current Loss 4.248623847961426
+INPUT SHAPE:  torch.Size([8, 128])
+INPUT MASK SHAPE:  torch.Size([8, 128])
+TARGET SHAPE:  torch.Size([8])
+Current Loss 4.444026470184326
+Average training loss: 4.64
+Training epoch took: 0:02:56
+Running Validation...
+  Accuracy: 0.15
+  Validation Loss: 4.18
+  Validation took: 0:00:06
+======== Epoch 2 / 6 ========
+Training...
+INPUT SHAPE:  torch.Size([32, 128])
+INPUT MASK SHAPE:  torch.Size([32, 128])
+TARGET SHAPE:  torch.Size([32])

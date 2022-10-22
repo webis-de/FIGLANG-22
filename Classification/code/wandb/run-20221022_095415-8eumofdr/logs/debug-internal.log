@@ -1,0 +1,108 @@
+2022-10-22 09:54:15,566 INFO    MainThread:23697 [internal.py:wandb_internal():90] W&B internal server running at pid: 23697, started at: 2022-10-22 09:54:15.566409
+2022-10-22 09:54:15,567 INFO    WriterThread:23697 [datastore.py:open_for_write():75] open: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/run-8eumofdr.wandb
+2022-10-22 09:54:15,568 DEBUG   SenderThread:23697 [sender.py:send():235] send: header
+2022-10-22 09:54:15,568 DEBUG   SenderThread:23697 [sender.py:send():235] send: run
+2022-10-22 09:54:15,787 DEBUG   HandlerThread:23697 [handler.py:handle_request():141] handle_request: check_version
+2022-10-22 09:54:15,788 INFO    SenderThread:23697 [dir_watcher.py:__init__():205] watching files in: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files
+2022-10-22 09:54:15,789 INFO    SenderThread:23697 [sender.py:_start_run_threads():812] run started: 8eumofdr with start time 1666425255
+2022-10-22 09:54:15,789 DEBUG   SenderThread:23697 [sender.py:send():235] send: summary
+2022-10-22 09:54:15,789 INFO    SenderThread:23697 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-10-22 09:54:15,789 DEBUG   SenderThread:23697 [sender.py:send_request():249] send_request: check_version
+2022-10-22 09:54:15,912 DEBUG   HandlerThread:23697 [handler.py:handle_request():141] handle_request: run_start
+2022-10-22 09:54:15,912 DEBUG   HandlerThread:23697 [meta.py:__init__():35] meta init
+2022-10-22 09:54:15,917 DEBUG   HandlerThread:23697 [meta.py:__init__():49] meta init done
+2022-10-22 09:54:15,917 DEBUG   HandlerThread:23697 [meta.py:probe():209] probe
+2022-10-22 09:54:15,919 DEBUG   HandlerThread:23697 [git.py:repo():29] git repository is invalid
+2022-10-22 09:54:15,919 DEBUG   HandlerThread:23697 [meta.py:_save_pip():53] save pip
+2022-10-22 09:54:15,922 DEBUG   HandlerThread:23697 [meta.py:_save_pip():67] save pip done
+2022-10-22 09:54:15,923 DEBUG   HandlerThread:23697 [meta.py:probe():247] probe done
+2022-10-22 09:54:15,931 DEBUG   SenderThread:23697 [sender.py:send():235] send: files
+2022-10-22 09:54:15,931 INFO    SenderThread:23697 [sender.py:_save_file():949] saving file wandb-metadata.json with policy now
+2022-10-22 09:54:15,935 DEBUG   HandlerThread:23697 [handler.py:handle_request():141] handle_request: stop_status
+2022-10-22 09:54:15,935 DEBUG   SenderThread:23697 [sender.py:send_request():249] send_request: stop_status
+2022-10-22 09:54:16,122 DEBUG   SenderThread:23697 [sender.py:send():235] send: telemetry
+2022-10-22 09:54:16,353 DEBUG   SenderThread:23697 [sender.py:send():235] send: telemetry
+2022-10-22 09:54:16,492 INFO    Thread-11 :23697 [upload_job.py:push():132] Uploaded file /var/folders/29/zj70c2b55g1f59d9k96wlrw80000gn/T/tmpdzqxso6wwandb/1oll6c00-wandb-metadata.json
+2022-10-22 09:54:16,795 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_created():256] file/dir created: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/wandb-summary.json
+2022-10-22 09:54:16,796 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_created():256] file/dir created: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/wandb-metadata.json
+2022-10-22 09:54:16,796 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_created():256] file/dir created: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:54:16,796 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_created():256] file/dir created: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/requirements.txt
+2022-10-22 09:54:18,796 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:54:20,806 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:54:22,812 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:54:24,823 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:54:26,834 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:54:28,845 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:54:30,856 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:54:31,128 DEBUG   HandlerThread:23697 [handler.py:handle_request():141] handle_request: stop_status
+2022-10-22 09:54:31,129 DEBUG   SenderThread:23697 [sender.py:send_request():249] send_request: stop_status
+2022-10-22 09:54:32,866 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:54:34,877 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:54:36,890 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:54:38,897 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:54:40,918 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:54:42,928 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:54:44,939 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:54:46,330 DEBUG   HandlerThread:23697 [handler.py:handle_request():141] handle_request: stop_status
+2022-10-22 09:54:46,330 DEBUG   SenderThread:23697 [sender.py:send_request():249] send_request: stop_status
+2022-10-22 09:54:46,946 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:54:46,946 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/config.yaml
+2022-10-22 09:54:48,954 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:54:50,965 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:54:52,955 DEBUG   SenderThread:23697 [sender.py:send():235] send: stats
+2022-10-22 09:54:52,977 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:54:54,988 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:54:56,995 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:54:59,009 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:01,016 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:01,520 DEBUG   HandlerThread:23697 [handler.py:handle_request():141] handle_request: stop_status
+2022-10-22 09:55:01,520 DEBUG   SenderThread:23697 [sender.py:send_request():249] send_request: stop_status
+2022-10-22 09:55:03,027 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:05,037 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:07,047 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:09,057 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:11,066 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:13,076 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:15,090 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:16,845 DEBUG   HandlerThread:23697 [handler.py:handle_request():141] handle_request: stop_status
+2022-10-22 09:55:16,845 DEBUG   SenderThread:23697 [sender.py:send_request():249] send_request: stop_status
+2022-10-22 09:55:17,097 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:19,116 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:21,118 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:23,129 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:25,139 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:27,147 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:29,157 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:31,167 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:32,044 DEBUG   HandlerThread:23697 [handler.py:handle_request():141] handle_request: stop_status
+2022-10-22 09:55:32,045 DEBUG   SenderThread:23697 [sender.py:send_request():249] send_request: stop_status
+2022-10-22 09:55:32,285 DEBUG   SenderThread:23697 [sender.py:send():235] send: stats
+2022-10-22 09:55:33,175 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:35,185 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:36,188 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:38,207 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:40,211 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:41,131 DEBUG   HandlerThread:23697 [handler.py:handle_request():141] handle_request: partial_history
+2022-10-22 09:55:41,132 DEBUG   SenderThread:23697 [sender.py:send():235] send: history
+2022-10-22 09:55:41,133 DEBUG   SenderThread:23697 [sender.py:send():235] send: summary
+2022-10-22 09:55:41,134 INFO    SenderThread:23697 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-10-22 09:55:41,221 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/wandb-summary.json
+2022-10-22 09:55:42,226 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:44,148 DEBUG   HandlerThread:23697 [handler.py:handle_request():141] handle_request: partial_history
+2022-10-22 09:55:44,150 DEBUG   SenderThread:23697 [sender.py:send():235] send: history
+2022-10-22 09:55:44,150 DEBUG   SenderThread:23697 [sender.py:send():235] send: summary
+2022-10-22 09:55:44,151 INFO    SenderThread:23697 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-10-22 09:55:44,233 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/wandb-summary.json
+2022-10-22 09:55:46,241 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:47,234 DEBUG   HandlerThread:23697 [handler.py:handle_request():141] handle_request: stop_status
+2022-10-22 09:55:47,235 DEBUG   SenderThread:23697 [sender.py:send_request():249] send_request: stop_status
+2022-10-22 09:55:48,252 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:50,261 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:52,272 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:54,278 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:56,288 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:55:58,299 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:56:00,306 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:56:02,317 INFO    Thread-7  :23697 [dir_watcher.py:_on_file_modified():269] file/dir modified: /Users/msen/Documents/Classification/code/wandb/run-20221022_095415-8eumofdr/files/output.log
+2022-10-22 09:56:02,430 DEBUG   HandlerThread:23697 [handler.py:handle_request():141] handle_request: stop_status
+2022-10-22 09:56:02,430 DEBUG   SenderThread:23697 [sender.py:send_request():249] send_request: stop_status
