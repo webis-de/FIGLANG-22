@@ -1,3 +1,8 @@
+'''
+Part of this code has inspired by the BERT fine-tuning tutorial by Chris McCormick 
+(https://mccormickml.com/2019/07/22/BERT-fine-tuning/)
+'''
+
 import pandas as pd
 import torch 
 import numpy as np
