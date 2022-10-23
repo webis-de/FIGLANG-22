@@ -1,3 +1,8 @@
+'''
+Implementation based on Sentence-Transformers library by Nils Reimers 
+(https://www.sbert.net/docs/training/overview.html)
+'''
+
 from ast import Raise
 import pandas as pd
 import csv
