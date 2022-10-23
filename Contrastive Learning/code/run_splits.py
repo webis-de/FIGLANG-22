@@ -1,5 +1,5 @@
 '''
-@All OS commands to run models for 20 iteraitons 
+@All OS commands to run models for 5 iteraitons 
 '''
 
 import os
