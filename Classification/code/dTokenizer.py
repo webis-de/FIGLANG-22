@@ -1,3 +1,8 @@
+'''
+Part of this code has inspired by the BERT fine-tuning tutorial by Chris McCormick 
+(https://mccormickml.com/2019/07/22/BERT-fine-tuning/)
+'''
+
 from transformers import DistilBertTokenizer
 from dParseDataset import xInput_train, xLabels_train, xInput_dev, xLabels_dev, xInput_test, xLabels_test
 import torch
