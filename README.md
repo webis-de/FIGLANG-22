@@ -6,20 +6,28 @@ ABSTRACT: Metaphors frame a given target domain using concepts from another, usu
 
 Instructions to run:
 
+```
 pip -r requirements.txt
+```
 
 To run the contrastive learning approach:
 
+```
 cd Contrastive Learning/code/
-
 python3 run.py 
-and 
+```
+
+and
+
+```
 python3 run_splits.py (to run the data splits) 
+```
 
 To run classification approach: 
 
+```
 cd Classification/code/
 python3 run_bert.py (to run with bert as the encoder)
 python3 run_distilbert.py (to run with distilbert as the encoder)
-
+```
 
