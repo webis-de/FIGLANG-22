@@ -21,7 +21,7 @@ import wandb
 from transformers import TrainingArguments, Trainer
 import argparse
 
-wandb.init(project="p", entity="msen")
+wandb.init(project="your_project", entity="your_name")
 
 model_name = 'bert-base-uncased'
 
